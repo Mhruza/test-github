@@ -1,0 +1,38 @@
+img {
+	float: right;
+	margin-right: 100px;
+	padding-bottom: 20px;
+	border: 10px solid #ccffff;
+}
+.name-font {
+	font-size: 50px;
+}
+body {
+	margin: 10px;
+	background-color: #D3D3D3;
+}
+main {
+	padding-left: 10px;
+}
+.underline {
+	text-decoration: underline;
+}
+.dbl-underline{
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+section {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+header {
+	text-align: center;
+}
+.emplo-pad {
+	padding-top: 20px;
+}
+address {
+	line-height: 0px;
+	text-align: center;
+}
