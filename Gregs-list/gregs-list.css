@@ -1,0 +1,99 @@
+body {
+	font-family: Roboto;
+}
+nav.container {
+	position: fixed;
+	height:	60px;
+	background-color: #d3d3d3;
+	border-bottom: 1px solid #dddddd;
+	width: 100%;
+}
+nav.container h3 {
+	display: inline-block; 
+	font-size: 25px;
+	position: absolute;
+	top: -10px;
+}
+nav.container ul {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	left: 67%;
+}
+nav.container li {
+	display: inline-block;
+	text-align: right;
+	font-size: 20px;
+	color: purple;
+}
+nav.container li::after {
+	content: "|";
+  	margin-left: 10px;
+}
+.container {
+	padding-left: 60px;
+	padding-right: 60px;
+} 
+form {
+	padding-top: 80px;
+	margin-left: 30px;
+}
+input {
+	width: 550px;
+	height: 30px;
+	border-radius: 3px;
+}
+h4 {
+	margin-bottom: 5px;
+}
+.mag {
+	width: 50px;
+	height: 35px;
+	position: absolute;
+	top: 133px;
+	margin-left: 10px;
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+}
+.page-nav {
+	display: inline-block;
+	max-width: 450px;
+	text-align: center;
+	padding: 0;
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+div.page-nav ul {
+	display: inline-block;
+	width: 450px;
+}
+div.page-nav li {
+	font-size: 16px;
+	display: inline-block;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	padding: 15px 40px 15px 40px;
+	margin: 0;
+}
+.nav-button {
+	position: relative;
+	width: 25%;
+	text-align: center;
+}
+section ul {
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+}
+section li {
+	display: inline-block;
+}
+.det {
+	color: gray;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.bot-nav {
+	font-size: 0;
+}
